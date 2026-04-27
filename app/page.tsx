@@ -24,6 +24,17 @@ export default function Home() {
         <p className="text-sm truncate">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <p className="text-xs note">A little note</p>
       </div>
+
+      {/* Spaces & Sizing */}
+      <div>
+        <div className=" p-1 font-bold text-white bg-red-500">Padding</div>
+        <div className="m-4 font-bold text-white bg-blue-500">Margin</div>
+
+        <div className="flex min-h-screen">
+          <div className="w-1/5 bg-green-500">Sidebar</div>
+          <div className="w-4/5 h-32 bg-gray-500">Main content</div>
+        </div>
+      </div>
     </main>
   );
 }
