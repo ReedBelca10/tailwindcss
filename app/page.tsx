@@ -47,6 +47,29 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Grids */}
+      <div className="h-screen text-white Parent bg-slate-900">
+        <div className="container mx-auto">
+          <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-1">
+            <div className="p-6 rounded-lg bg-sky-500">First column</div>
+            <div className="p-6 rounded-lg bg-sky-500">Second column</div>
+            <div className="p-6 rounded-lg bg-sky-500">Third column</div>
+            <div className="col-span-2 p-6 rounded-lg bg-sky-900">Fourth column</div>
+            <div className="p-6 rounded-lg bg-sky-500">Fifth column</div>
+            <div className="p-6 rounded-lg bg-sky-500">Sixth column</div>
+          </div>
+          <hr/>
+          <div className="grid grid-flow-col grid-rows-4 gap-4">
+            <div className="row-span-2 p-6 rounded-lg bg-sky-500">01</div>
+            <div className="col-span-2 p-6 rounded-lg bg-sky-500">02</div>
+            <div className="p-6 rounded-lg bg-sky-500">03</div>
+            <div className="p-6 rounded-lg bg-sky-500">04</div>
+            <div className="p-6 rounded-lg bg-sky-500">05</div>
+            <div className="p-6 rounded-lg bg-sky-500">06</div>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
