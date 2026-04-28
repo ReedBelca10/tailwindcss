@@ -69,6 +69,16 @@ export default function Home() {
             <div className="p-6 rounded-lg bg-sky-500">06</div>
           </div>
         </div>
+
+        {/* Layouts */}
+        <div className="container px-2 columns-3">
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo doloribus dolore natus deleniti in, unde laboriosam labore, rerum, modi dolores alias repudiandae. At veniam dicta velit vel, exercitationem consequuntur alias!</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos velit, ratione adipisci cupiditate dolorum culpa, perspiciatis ea facilis tenetur assumenda possimus voluptas sint illo autem id ipsa? Expedita, est fugiat?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium fugit error sed nemo amet corporis nulla molestias? Ut ipsam veritatis velit vero itaque atque reprehenderit fugit. Similique eum voluptatibus atque.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo doloribus dolore natus deleniti in, unde laboriosam labore, rerum, modi dolores alias repudiandae. At veniam dicta velit vel, exercitationem consequuntur alias!</p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos velit, ratione adipisci cupiditate dolorum culpa, perspiciatis ea facilis tenetur assumenda possimus voluptas sint illo autem id ipsa? Expedita, est fugiat?</p>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium fugit error sed nemo amet corporis nulla molestias? Ut ipsam veritatis velit vero itaque atque reprehenderit fugit. Similique eum voluptatibus atque.</p>
+        </div>
       </div>
     </main>
   );
