@@ -35,6 +35,18 @@ export default function Home() {
           <div className="w-4/5 h-32 bg-gray-500">Main content</div>
         </div>
       </div>
+
+      {/* Flex */}
+      <div className="Parent">
+        <div>Header</div>
+        <div className="flex flex-row">
+          <div className="basis-3/4">Main content</div>
+          <div className="basis-1/4">
+            <div className="flex justify-end">Sidebar</div>
+            <div className="flex justify-end">Menu</div>
+          </div>
+        </div>
+      </div>
     </main>
   );
 }
