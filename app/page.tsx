@@ -80,6 +80,11 @@ export default function Home() {
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium fugit error sed nemo amet corporis nulla molestias? Ut ipsam veritatis velit vero itaque atque reprehenderit fugit. Similique eum voluptatibus atque.</p>
         </div>
       </div>
+
+      {/* Borders */}
+      <div className="h-screen mt-12 text-white Parent bg-blue-900">
+        <header className="w-full border-4">Header</header>
+      </div>
     </main>
   );
 }
