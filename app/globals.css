@@ -18,13 +18,13 @@
   --breakpoint-2xl: 1536px;
   --color-vuejs-100: #49e659;
   --color-vuejs-950: #FBBF24;
-  --text-xs: '12px';
+  /* --text-xs: '12px';
   --text-sm: '15px';
   --text-base: '18px';
   --text-lg: '20px';
   --text-xl: '24px';
   --text-2xl: '32px';
-  --text-3xl: '48px';
+  --text-3xl: '48px'; */
 }
 
 @media (prefers-color-scheme: dark) {

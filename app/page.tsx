@@ -85,6 +85,18 @@ export default function Home() {
       <div className="h-screen mt-12 text-white Parent bg-blue-900">
         <header className="w-full border-4">Header</header>
       </div>
+
+      {/* Effects & Filters */}
+      <div className="h-screen p-4 Parent">
+        <div className="inline-block p-4 bg-white text-gray-900 border rounded-lg shadow-md shadow-cyan-500 blur hover:blur-none">
+          <img src="https://pixabay.com/images/download/arturo_anez-insects-9650481_1920.jpg" className="w-64 mb-4"/>
+          <h1 className="text-2xl font-bold">Effects & Filters</h1>
+          <p className='mb-4'>This is my effects and filters example.</p>
+          <button className="px-3 py-2 rounded-lg cursor-pointer bg-blue-500 text-white shadow-md shadow-cyan-500/50 hover:bg-blue-700 transition duration-300">
+            Say Hello
+          </button>
+        </div>
+      </div>
     </main>
   );
 }
