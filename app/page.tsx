@@ -97,6 +97,18 @@ export default function Home() {
           </button>
         </div>
       </div>
+
+      {/* Animations & Transitions */}
+      <div className="h-screen p-4 Parent">
+        <div className="inline-block p-4 bg-white text-gray-900 border rounded-lg shadow-md shadow-cyan-500 transition-transform duration-300 hover:scale-105">
+          <img src="https://pixabay.com/images/download/arturo_anez-insects-9650481_1920.jpg" className="w-64 mb-4"/>
+          <h1 className="text-2xl font-bold">Animations & Transitions</h1>
+          <p className='mb-4'>This is my animations and transitions example.</p>
+          <button className="px-3 py-2 rounded-lg cursor-pointer bg-blue-500 text-white shadow-md shadow-cyan-500/50 hover:bg-blue-700 transition duration-300">
+            Say Hello
+          </button>
+        </div>
+      </div>
     </main>
   );
 }
