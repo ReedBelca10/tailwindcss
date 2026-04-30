@@ -34,6 +34,50 @@
   }
 }
 
+h1 {
+  @apply mb-2 text-3xl font-bold;
+}
+
+h2 {
+  @apply mb-1 text-xl font-semibold;
+}
+
+a {
+  @apply text-blue-500 hover:underline;
+}
+
+.btn {
+  @apply px-4 py-2 rounded text-white hover:transition hover:duration-300 hover:opacity-80;
+}
+
+.btn-primary {
+    @apply bg-blue-600;
+}
+
+.btn-secondary {
+    @apply bg-gray-900;
+}
+
+input, select{
+  @apply p-1 mb-1 outline-none border border-slate-300 rounded-sm;
+}
+
+select {
+  @apply pr-6;
+}
+
+input[type="text"] {
+  @apply disabled:bg-slate-100 placeholder:italic;
+}
+
+input[type="checkbox"] {
+  @apply p-2 mr-1 accent-purple-500 mb-0 mt-0.5;
+}
+
+label {
+  @apply text-sm font-medium text-gray-700 leading-4;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
