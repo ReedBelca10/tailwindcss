@@ -145,8 +145,6 @@ export default function Home() {
             <option>Option 3</option>
           </select>
         </div>
-        <h1>This is another title</h1>
-        <h2>This is another subtitle</h2>
       </div>
     </main>
   );
